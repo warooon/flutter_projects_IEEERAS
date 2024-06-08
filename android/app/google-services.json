@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1012903347728",
+    "firebase_url": "https://phonebook-b6ad3-default-rtdb.firebaseio.com",
+    "project_id": "phonebook-b6ad3",
+    "storage_bucket": "phonebook-b6ad3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012903347728:android:158bb68348223e456fec95",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgbRSABJ8dVGfqECVN0T7N26Q2ZnGAPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012903347728:android:d9dcb2c6e072b1df6fec95",
+        "android_client_info": {
+          "package_name": "com.second.firebasetutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgbRSABJ8dVGfqECVN0T7N26Q2ZnGAPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
