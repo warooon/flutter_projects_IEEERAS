@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720923366208",
+    "project_id": "v-share-food-donation-app",
+    "storage_bucket": "v-share-food-donation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720923366208:android:df8f15039634d3c7fca0a5",
+        "android_client_info": {
+          "package_name": "com.example.vshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArE_KN2-bFY4mXtWHJY_cAc1wNVmunc48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

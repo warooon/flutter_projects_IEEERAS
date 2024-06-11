@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+
+    
+
+
+        <meta charset="utf-8">
+        <base href="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VIT Chennai - VTOP</title>
+        <meta name="description" content="">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+        <meta charset="ISO-8859-1">
+        <meta name="description" content="vtop" />
+        <meta name="robots" content="NOODP,NOYDIR" />
+        <meta name="keywords" content=" vtop " />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" /> 
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    
+
+    <link rel="stylesheet" type="text/css" href="/vtop/get/bs/css/1">
+    <link rel="stylesheet" type="text/css" href="/vtop/get/ic/css/1">
+    <link rel="stylesheet" type="text/css" href="/vtop/get/ic/css/2">
+    <link rel="stylesheet" type="text/css" href="/vtop/assets/css/PreLogin.css" />
+
+</head>
+
+<body class="WhiteBackground">
+
+    
+        <nav class="navbar navbar-expand-lg bg-light headerBackgroundColor py-1 fixed-top shadow" id="vtopOpenPageHeader">
+            <div class="container-fluid justify-content-start">
+                <a class="navbar-brand" href="javacript:void(0);">
+                    <img src="/vtop/assets/img/VITLogoEmblem.png" class="img-responsive VITEmblem" alt="" />
+                </a>
+                <a class="navbar-brand VITLogoStyle text-light" href="javacript:void(0);"><span
+                        class="h1 fw-bold">VIT</span>
+                </a>
+                <span class="navbar-text text-light">(Chennai Campus)</span>
+
+            </div>
+        </nav>
+
+    
+
+    <div class="container-fluid">
+        <div class="row WhiteBackground pb-5">
+            <div class="col-12">
+                <div class="card card-body border-0 ">
+                    <div class="d-flex flex-column justify-content-center">
+                        <strong class="h2 align-self-center primaryTextColor1 fw-bold text-center"><b>VTOP</b>
+                            translates to "<b>V</b>IT on
+                            <b>TOP</b>"</strong>
+                        <div class="h6 d-none d-sm-block w-75 mt-2 align-self-center text-dark fw-bold text-center">A
+                            digital initiative by
+                            the institute facilitating Faculty, Staff, Students, Parents and
+                            Alumni to access and process Academics, Research, Supporting services in one common
+                            platform.
+                        </div>
+                        <div class="h6 d-block d-sm-none w-100 px-1 mt-2 align-self-center text-dark  text-center">A
+                            digital
+                            initiative by the institute
+                            facilitating Faculty, Staff, Students, Parents and
+                            Alumni to access and process Academics, Research, Supporting services in one common
+                            platform.
+                        </div>
+
+                    </div>
+                    <div class="row row-cols-2 row-cols-sm-4 py-3 g-2 g-sm-5">
+                        
+
+        <div class="col">
+            <div class="card card-body cardStudent  shadow">
+                <form class="text-center" id="stdForm" action="/vtop/prelogin/setup" method="post"><input type="hidden" name="_csrf" value="52b280cb-adf8-4d16-8c9a-508cfe861afd"/>
+                    <input type="hidden" name="flag" value="VTOP" />
+                    <a href="javascript:void(0);" class="text-decoration-none"
+                        onclick="javascript:submitForm('stdForm')">
+                         <div class="circle">
+                          <img src="/vtop/assets/img/students.png" class="img-responsive center imgSiz" id="student"
+                                    alt="..." />
+                                              
+                                <p>Student</p>
+                                <div class="fw-bold text-primary d-none d-lg-block h5"></div>
+                                                           
+                            
+                        </div>
+                    </a>
+                </form>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-body cardEmployee  shadow">
+                <form class="text-center" id="empForm" action="/vtop/prelogin/setup" method="post"><input type="hidden" name="_csrf" value="52b280cb-adf8-4d16-8c9a-508cfe861afd"/>
+                    <input type="hidden" name="flag" value="VTOP" />
+                    <a href="javascript:void(0);" class="text-decoration-none"
+                        onclick="javascript:submitForm('empForm')">
+                        <div class="circle">
+                            <div class="w-50">
+                                <img src="/vtop/assets/img/employee.png" class="img-responsive center imgSize"
+                                    alt="..." />
+                            </div>
+                            <div class="flex-grow-1">
+                             
+                                <p>Employee</p>
+                                <div class="fw-bold employeeTextColor d-none d-lg-block h5"></div>
+                                                              
+                            </div>
+                        </div>
+                    </a>
+                </form>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-body cardParent  shadow">
+                <form class="text-center" id="parentForm" action="/vtop/prelogin/setup" method="post"><input type="hidden" name="_csrf" value="52b280cb-adf8-4d16-8c9a-508cfe861afd"/>
+                    <input type="hidden" name="flag" value="parent" />
+                    <a href="javascript:void(0);" class="text-decoration-none"
+                        onclick="javascript:submitForm('parentForm')">
+                        <div class="circle">
+                            <div class="w-50">
+                                <img src="/vtop/assets/img/parent.png" class="img-responsive center imgSize"
+                                    alt="..." />
+                            </div>
+                            <div class="flex-grow-1">
+                            
+                                <p>Parent</p>
+                                <div class="fw-bold greenText d-none d-lg-block h5"></div>
+                                
+                                     
+                            </div>
+                        </div>
+                    </a>
+
+                </form>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-body  cardAlumni shadow">
+                <form class="text-center" id="alumniForm" action="/vtop/prelogin/setup" method="post"><input type="hidden" name="_csrf" value="52b280cb-adf8-4d16-8c9a-508cfe861afd"/>
+                    <input type="hidden" name="flag" value="alumni" />
+                    <a href="javascript:void(0);" class="text-decoration-none"
+                        onclick="javascript:submitForm('alumniForm')">
+                        <div class="circle">
+                            <div class="w-50">
+                                <img src="/vtop/assets/img/alumni.png" class="img-responsive center imgSize" id="alumni" 
+                                    alt="..." />
+                            </div>
+                            <div class="flex-grow-1">
+                              
+                                <p>Alumni</p>
+                                <div class="fw-bold text-info d-none d-lg-block h5"></div>
+                                
+                                 </div>
+                            
+                        </div>
+                    </a>
+                </form>
+            </div>
+        </div>
+
+    
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6  order-2 order-md-1 mt-sm-1 ">
+                            <div class="card border-0 shadow-lg">
+                                <div class="card-header d-flex justify-content-between spotlightHeader  ">
+                                    <span class="text-start fw-bold hightlight1 h6"> Vellore Institute of Technology
+                                        (VIT), India </span>
+                                </div>
+                                <div class="card-body">
+                                    
+        <ul class="list-group list-group-flush text-start fw-bold h6">
+            <li class="list-group-item bg-transparent py-2">
+                <div class="d-flex text-dark">
+                    <div class="goldIcons px-3 align-self-center">
+                        <i class="bi bi-shield-shaded h5 align-middle" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <strong class="small ">Ranked among the top 601-700 Universities of the world and one among the
+                            top 3 Institutions in India (Shanghai ARWU Ranking 2022)</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-transparent py-2">
+                <div class="d-flex text-dark">
+                    <div class="goldIcons px-3 align-self-center">
+                        <i class="bi bi-shield-shaded h5 align-middle" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <span class="small">The 8<sup>th</sup> best University, the 11<sup>th</sup> best research institution and the 11<sup>th</sup>
+                            best engineering institution in India (NIRF Ranking, Govt. of India 2023)</span>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-transparent py-2">
+                <div class="d-flex text-dark">
+                    <div class="goldIcons px-3 align-self-center">
+                        <i class="bi bi-shield-shaded h5 align-middle" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <span class="small">Engineering and Technology subject areas of VIT are the 240<sup>th</sup> best in the
+                            World and the 9<sup>th</sup> best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)</span>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-transparent py-2">
+                <div class="d-flex text-dark">
+                    <div class="goldIcons px-3 align-self-center">
+                        <i class="bi bi-shield-shaded h5 align-middle" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <span class="small">NAAC Accreditation with A++ grade (3.66 out of 4)</span>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-transparent py-2">
+                <div class="d-flex text-dark">
+                    <div class="goldIcons px-3 align-self-center">
+                        <i class="bi bi-shield-shaded h5 align-middle" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <span class="small">Ranked within the top 200 Universities in Asia (QS - Asia University Rankings 2023)</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 order-1 order-md-2 mt-sm-1 mb-3 ">
+                            
+                                <div class="card border-0 shadow-lg">
+                                    <div class="card-header d-flex justify-content-between spotlightHeader  ">
+                                        <span class="fw-bold hightlight1 h6"> Spotlight</span>
+                                        <button class="btn btn-link p-0 m-0 text-decoration-none small hightlight1"
+                                            data-bs-toggle="offcanvas" data-bs-target="#spotlightCanvas"
+                                            aria-controls="spotlightCanvas">More
+                                            ...</button>
+                                    </div>
+                                    <div class="card-body">
+                                        
+
+
+        <ul class="list-group list-group-flush text-start small spotlight-background">
+            <li class="list-group-item py-2 small">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="w-75 py-0">
+                        
+                        
+
+                        <a class="list-group-item-action" target="_self"
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/707&#39;);">
+                            <strong class="fw-bold text-dark">FAT SCHEDULE - WINTER SEMESTER 2023-24 (ONLINE DEGREE PROGRAMMES)</strong> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2 small">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="w-75 py-0">
+                        
+                        <a class="list-group-item-action fw-bold text-dark" target="_blank"
+                            href="https://docs.google.com/spreadsheets/d/1LL8G4KR4-6s056P1nmHbZ98f7ef-smMoqR-Q-RFwJCY/edit?usp=sharing"><span class="">FAT SCHEDULE FOR THE RESEARCH COURSEWORK EXAMINATION - WINTER SEMESTER - 2023-24</span></a>
+
+                        
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2 small">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="w-75 py-0">
+                        
+                        
+
+                        <a class="list-group-item-action" target="_self"
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/702&#39;);">
+                            <strong class="fw-bold text-dark">FAT SCHEDULE FOR THE REGULAR ARREAR (WINTER SEMESTER 2023-24) AND REFAT(FALL SEMESTER 2023-24)</strong> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2 small">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="w-75 py-0">
+                        
+                        
+
+                        <a class="list-group-item-action" target="_self"
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/699&#39;);">
+                            <strong class="fw-bold text-dark">GUIDELINES FOR “NATURE OF MALPRACTICE VS PUNISHMENT” </strong> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2 small">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="w-75 py-0">
+                        
+                        
+
+                        <a class="list-group-item-action" target="_self"
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/696&#39;);">
+                            <strong class="fw-bold text-dark">FAT SCHEDULE - MBA TRIMESTER VI 2023-24</strong> </a>
+
+                    </div>
+                </div>
+            </li>
+            
+            
+            
+            
+            
+            
+        </ul>
+
+
+    
+                                    </div>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+					<div
+						class="row row-cols-2 row-cols-sm-4 py-3 justify-content-center">
+						<div class="col text-center">
+							<div class="fw-bold text-primary h6">Parent App</div>
+							<a
+								href="https://play.google.com/store/apps/details?id=edu.vit.parentappcc">
+								<img class="py-0" src="assets/img/google-play-badge.png"
+								height="80" width="180">
+							</a>
+						</div>
+						
+						<div class="col text-center">
+							<div class="fw-bold text-primary h6">Student App</div>
+							<a
+								href="https://play.google.com/store/apps/details?id=edu.vit.vitiancc&hl=en&gl=US">
+								<img class="py-0" src="/vtop/assets/img/google-play-badge.png"
+								height="80" width="180">
+							</a>
+						</div>
+						<div class="col text-center">
+							<div class="fw-bold text-primary h6">V-help App</div>
+							<a
+								href="https://play.google.com/store/apps/details?id=org.vit.hc">
+								<img class="py-0" src="/vtop/assets/img/google-play-badge.png"
+								height="80" width="180">
+							</a>
+						</div>
+
+					</div>
+				</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="spotlightCanvas" aria-labelledby="spotlightCanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold primaryColor1" id="spotlightCanvasLabel">SPOTLIGHT</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body spotlightTextSize">
+            
+
+        <ul class="list-group list-group-flush text-start spotlight-background">
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/707&#39;);">
+                            <span class="fw-bold">FAT SCHEDULE - WINTER SEMESTER 2023-24 (ONLINE DEGREE PROGRAMMES)</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        <a class="list-group-item-action fw-bold" target="_blank"
+                            href="https://docs.google.com/spreadsheets/d/1LL8G4KR4-6s056P1nmHbZ98f7ef-smMoqR-Q-RFwJCY/edit?usp=sharing"><span class="">FAT SCHEDULE FOR THE RESEARCH COURSEWORK EXAMINATION - WINTER SEMESTER - 2023-24</span></a>
+
+                        
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/702&#39;);">
+                            <span class="fw-bold">FAT SCHEDULE FOR THE REGULAR ARREAR (WINTER SEMESTER 2023-24) AND REFAT(FALL SEMESTER 2023-24)</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/699&#39;);">
+                            <span class="fw-bold">GUIDELINES FOR “NATURE OF MALPRACTICE VS PUNISHMENT” </span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/696&#39;);">
+                            <span class="fw-bold">FAT SCHEDULE - MBA TRIMESTER VI 2023-24</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/695&#39;);">
+                            <span class="fw-bold">FAT SCHEDULE - WINTER SEMESTER 2023-24 - FOR LAW PROGRAMS- REVISED</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/694&#39;);">
+                            <span class="fw-bold">FAT SCHEDULE- WINTER SEMESTER 2023-24 - EXCEPT LAW PROGRAMS</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        
+
+                        <a target="_self"
+                            class="list-group-item-action" 
+                            href="javascript:void(0);"
+                            onclick="javascript:downLoadLink(&#39;downloadSpotLightViewFile/692&#39;);">
+                            <span class="fw-bold">LIST OF APPROVED STUDENTS WITH COURSE TYPE FOR THE REFAT - FALL SEMESTER 2023-24</span> </a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        <a class="list-group-item-action fw-bold" target="_blank"
+                            href="https://drive.google.com/drive/folders/1VZFoZIWCsH_RNvJ7sJZQ5FXZQnIW8MWp?usp=drive_link"><span class="">DOWNLOADABLE FORMATS / TEMPLATES FOR RESEARCH SCHOLARS</span></a>
+
+                        
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        
+                        <a class="list-group-item-action fw-bold" target="_blank"
+                            href="https://webcc.vit.ac.in/SoftSkills/"><span class="">SOFTSKILLS EXAM LINK</span></a>
+
+                        
+
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item py-2">
+                <div class="d-flex w-100 align-items-stretch justify-content-start">
+                    <div class="hightlight1 px-3 ">
+                        <i class="fa fa-bolt fa-6" aria-hidden="true"></i>
+                    </div>
+                    <div class="fg-black w-75 py-0">
+                        <span class="fw-bold">24/7 Student Course Feedback available in VTOP Student Login -> Services -> Course Feedback 24/7</span>
+                        
+
+                        
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    
+        </div>
+    </div>
+
+    
+        <form id="sessionExpireCheckForm" action="/vtop/session/expired/out">
+
+        </form>
+        <div class="fixed-bottom text-center text-light py-0 footercolor">
+            <span class="small">Copyright © <span class="trim d-none d-sm-inline-block">2024</span>
+                Software Development Cell, VIT, Chennai-600 127.</span>
+        </div>
+
+        <div class="modal" tabindex="-1" id="sessionTimedOut">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary" >Sorry !!!</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-danger"> Session Timed Out</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <script type="text/javascript" src="/vtop/get/jq/js/1"></script>
+        <script type="text/javascript" src="/vtop/get/jq/js/3"></script>
+        <script type="text/javascript" src="/vtop/get/bs/js/3"></script>
+        <script type="text/javascript" src="/vtop/get/jq/js/4"></script>
+
+        <script>
+            /*<![CDATA[*/
+
+            var offsetHeight = document.getElementById('vtopOpenPageHeader').offsetHeight;
+            document.body.style.marginTop = offsetHeight + 'px';
+
+            function sessionExpiredCall() {
+                var form = document.getElementById("sessionExpireCheckForm");
+                form.submit();
+            }
+
+            history.pushState(null, null, document.URL);
+            window.addEventListener('popstate', function () {
+                history.pushState(null, null, document.URL);
+            });
+
+            /*]]>*/
+        </script>
+
+    
+    <script>
+
+
+        var isSessionExpired = document.getElementById("authorizedIDX");
+        if (isSessionExpired != null || isSessionExpired != undefined) {
+            sessionExpiredCall();
+        }
+
+        function submitForm(formName) {
+            var form = document.getElementById(formName);
+            form.submit();
+        }
+
+
+        function downLoadLink(urlText) {
+            var now = new Date();
+            var csrfName = /*_csrf*/'';
+            var csrfValue = /*52b280cb-adf8-4d16-8c9a-508cfe861afd*/'';
+            params = csrfName + "=" + csrfValue + "&x=" + now.toUTCString();
+            window.open(urlText + '?' + params);
+        };
+
+    </script>
+    
+
+
+</body>
+</html>
