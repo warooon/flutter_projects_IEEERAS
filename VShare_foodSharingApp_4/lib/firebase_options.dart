@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyArE_KN2-bFY4mXtWHJY_cAc1wNVmunc48',
+    apiKey: 'paste ur api key here',
     appId: '1:720923366208:android:df8f15039634d3c7fca0a5',
     messagingSenderId: '720923366208',
     projectId: 'v-share-food-donation-app',
