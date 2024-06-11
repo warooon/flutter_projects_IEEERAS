@@ -12,6 +12,8 @@ if (localPropertiesFile.exists()) {
     }
 }
 
+
+
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
     flutterVersionCode = '1'
@@ -22,9 +24,10 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+
+
 android {
-    namespace "com.example.tictactoe_1"
-    compileSdk flutter.compileSdkVersion
+    compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -42,9 +45,9 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.tictactoe_1"
+        applicationId "com.example.flutter_tic_tac_toe"
         // You can update the following values to match your application needs.
-        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -64,4 +67,6 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    
+}
