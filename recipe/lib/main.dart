@@ -13,7 +13,6 @@ class Controller_ extends GetxController{
 
   static Future<void> getRecipes() async {
     Controller_.recipe_details = await ApiReq.get_recipe();
-    print(Controller_.recipe_details);
   }
 }
 
