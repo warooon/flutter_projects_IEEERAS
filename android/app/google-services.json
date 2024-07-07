@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "400778024844",
+    "firebase_url": "https://tutorial-15a85-default-rtdb.firebaseio.com",
+    "project_id": "tutorial-15a85",
+    "storage_bucket": "tutorial-15a85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:cbe765dba35fde6051e8a9",
+        "android_client_info": {
+          "package_name": "com.example.course_basic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:0aa977c7f60c2e8b51e8a9",
+        "android_client_info": {
+          "package_name": "com.example.ecard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:f578f0a92b78679251e8a9",
+        "android_client_info": {
+          "package_name": "com.example.ecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:6416e7d27c342d8251e8a9",
+        "android_client_info": {
+          "package_name": "com.example.formapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:41ca0c69b449bb3851e8a9",
+        "android_client_info": {
+          "package_name": "com.example.formapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400778024844:android:5c905267c949528d51e8a9",
+        "android_client_info": {
+          "package_name": "com.example.tutorials"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p_Po3_qJ0L0-GBeZHw3zDSdkvnoyE-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
